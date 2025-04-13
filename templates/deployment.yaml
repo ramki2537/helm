@@ -8,7 +8,7 @@ metadata:
     tier: frontend
     purpose: deployment
 spec:
-  replicas: {{ .Values.deployement.replicas }}
+  replicas: {{ .Values.deployment.replicas }}
   selector:
     matchLabels:
       app: nginx
